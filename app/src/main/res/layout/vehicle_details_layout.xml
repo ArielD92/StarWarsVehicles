@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_4"
+        android:visibility="gone"
+        android:padding="@dimen/dimen_4"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/vehicleNameHeader"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vehicle_name_header" />
+
+        <TextView
+            android:id="@+id/vehicleName"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_50"
+            android:gravity="center"
+            android:padding="@dimen/dimen_4" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_1"
+            android:background="@color/black" />
+
+        <TextView
+            android:id="@+id/vehicleModelHeader"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vehicle_model_header_text" />
+
+        <TextView
+            android:id="@+id/vehicleModel"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_50"
+            android:gravity="center"
+            android:padding="@dimen/dimen_4" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_1"
+            android:background="@color/black" />
+
+        <TextView
+            android:id="@+id/vehicleManufacturerHeader"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vehicle_manufacturer_header_text" />
+
+        <TextView
+            android:id="@+id/vehicleManufacturer"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_50"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="2"
+            android:padding="@dimen/dimen_4" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_1"
+            android:background="@color/black" />
+
+        <TextView
+            android:id="@+id/vehicleLengthHeader"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vehicle_length_header_text" />
+
+        <TextView
+            android:id="@+id/vehicleLength"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_50"
+            android:gravity="center"
+            android:padding="@dimen/dimen_4" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_1"
+            android:background="@color/black" />
+
+        <TextView
+            android:id="@+id/vehicleCrewHeader"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vehicle_crew_header_text" />
+
+        <TextView
+            android:id="@+id/vehicleCrew"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_50"
+            android:gravity="center"
+            android:padding="@dimen/dimen_4" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_1"
+            android:background="@color/black" />
+
+        <TextView
+            android:id="@+id/vehiclePassengersHeader"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vehicle_passengers_header_text" />
+
+        <TextView
+            android:id="@+id/vehiclePassengers"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_50"
+            android:gravity="center"
+            android:padding="@dimen/dimen_4" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_1"
+            android:background="@color/black" />
+
+        <TextView
+            android:id="@+id/vehicleCargoCapacityHeader"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vehicle_cargo_capacity_header_text" />
+
+        <TextView
+            android:id="@+id/vehicleCargoCapacity"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_50"
+            android:gravity="center"
+            android:padding="@dimen/dimen_4" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_1"
+            android:background="@color/black" />
+
+        <TextView
+            android:id="@+id/vehicleHyperdriveRatingHeader"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vehicle_hyperdrive_rating_header_text" />
+
+        <TextView
+            android:id="@+id/vehicleHyperdriveRating"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_50"
+            android:gravity="center"
+            android:padding="@dimen/dimen_4" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_1"
+            android:background="@color/black" />
+
+        <TextView
+            android:id="@+id/vehicleStarshipClassHeader"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vehicle_starship_class_header_text" />
+
+        <TextView
+            android:id="@+id/vehicleStarshipClass"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_50"
+            android:gravity="center"
+            android:padding="@dimen/dimen_4" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_1"
+            android:background="@color/black" />
+    </LinearLayout>
+</layout>

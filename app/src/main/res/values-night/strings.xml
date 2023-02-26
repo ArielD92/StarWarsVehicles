@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hint_text">To compare Star Wars vehicles select by them name</string>
+    <string name="select_first_vehicle">Select first vehicle</string>
+    <string name="select_second_vehicle">Select second vehicle</string>
+    <string name="button_text">Comparison history</string>
+    <string name="vehicle_name_header">Vehicle Name:</string>
+    <string name="vehicle_model_header_text">Vehicle Model:</string>
+    <string name="vehicle_manufacturer_header_text">Vehicle Manufacturer:</string>
+    <string name="vehicle_length_header_text">Vehicle Length:</string>
+    <string name="vehicle_crew_header_text">Vehicle Crew:</string>
+    <string name="vehicle_passengers_header_text">Vehicle Passengers:</string>
+    <string name="vehicle_cargo_capacity_header_text">Vehicle Cargo Capacity:</string>
+    <string name="vehicle_hyperdrive_rating_header_text">Vehicle Hyperdrive Rating:</string>
+    <string name="vehicle_starship_class_header_text">Vehicle Starship Class:</string>
+    <string name="not_implemented_toast_text">NOT IMPLEMENTED YET</string>
+</resources>
